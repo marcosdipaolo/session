@@ -1,0 +1,24 @@
+{
+    "name": "marcosdipaolo/session",
+    "description": "A PHP Session package",
+    "type": "library",
+    "keywords": ["php","session"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcos Di Paolo",
+            "email": "marcosdipaolo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MDP\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
